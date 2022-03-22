@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)"
+options: "b8f5e74fef108489543b05327fb8278e89aadc966d0c62c8be2b0af7cff11f49"
+build_start_time: [1647975497, 818761825]
+build_end_time: [1647975498, 85646152]
+inputs:
+  "/Users/bytedance/Desktop/HackPlayground/AnotherPlaygroundSupport/Sources/PlaygroundSupport/PlaygroundSupport.swift": [1647972578, 415396928]

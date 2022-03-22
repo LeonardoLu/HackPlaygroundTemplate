@@ -1,0 +1,4 @@
+module PlaygroundSupport {
+header "PlaygroundSupport-Swift.h"
+export *
+}
