@@ -4,13 +4,15 @@
 
 打开 **Swift_Playgrounds_Author_Template_for_Xcode** 的工程，可以正常直接使用。
 
-`build` 或 `run` 命令之后不会产生 `.playgroundbook` 文件，原因未知。
+~~`build` 或 `run` 命令之后不会产生 `.playgroundbook` 文件，原因未知。~~
+
+新版本的 Xcode 会隐藏默认的 Production 目录，如果需要找到这个目录：`Product` -> `Show Build Folder in Finder` 。
 
 如果需要生成 `.playgroundbook` 文件，可以在工程目录下执行 `xcodebuild -target PlaygroundBook` 。文件将生成在 **build** 文件夹中。
 
 ## 生成了新的模板
 
-1. 需要在新的 **Swift_Playgrounds_Author_Template_for_Xcode** 的工程中引入 **AnotherPlaygroundSupport** 这个 Swift Package ，具体方法为 `Add Packages..` => `add Local...`。
+1. 需要在新的 **Swift_Playgrounds_Author_Template_for_Xcode** 的工程中引入 **AnotherPlaygroundSupport** 这个 Swift Package ，具体方法为 `Add Packages..` -> `add Local...`。
 
 2. 将 `PlaygroundSupport/build/Release-iphoneos/PlaygroundSupport.framework` 这个文件复制替换 `Swift_Playgrounds_Author_Template_for_Xcode_xx.x/Template/SupportingContent/PlaygroundsFrameworks` 下所有的 `PlaygroundSupport.framework` 。
 
